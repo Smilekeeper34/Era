@@ -1,0 +1,43 @@
+.facebook-login-container {
+    max-width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .facebook-login-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Full width */
+    margin-bottom: 10px; /* Space between buttons */
+  }
+  
+  .facebook-login-button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .login-message {
+    margin-top: 20px;
+    text-align: center;
+    color: #666;
+  }
+  
+  .password-button {
+    background-color: #2196F3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Full width */
+  }
+  
+  .password-button:hover {
+    background-color: #1A76D2;
+  }

@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { FacebookLoginComponent } from './facebook-login/facebook-login.component'; // Adjust the path as needed
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css'],
+  imports: [FacebookLoginComponent], // Import the FacebookLoginComponent directly
 })
 export class AppComponent {
-  title = 'new-era';
+  title = 'Your Application Title'; // Optional: Set the application title
 }

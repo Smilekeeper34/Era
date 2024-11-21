@@ -1,0 +1,11 @@
+<div class="facebook-login-container">
+    <button class="facebook-login-button" (click)="loginWithFacebook()">
+      Login with Facebook
+    </button>
+    <button class="password-button" (click)="loginWithPassword()">
+      Login with Password
+    </button>
+    <div class="login-message" *ngIf="loginResponse">
+      {{ loginResponse }}
+    </div>
+  </div>
